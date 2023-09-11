@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advance Engineering Courses</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+      rel="stylesheet"
+    />
+
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/owl.css" rel="stylesheet" />
+    <link href="css/magnific.css" rel="stylesheet" />
+    <link href="css/fontawesome.css" rel="stylesheet" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/magnific.js"></script>
+  </head>
+  <body>
+    <div>
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid px-5">
+          <a class="navbar-brand" href="#" aria-current="page">
+            <img src="company_logo/AEC_logo.png"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Courses
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                >
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">What do we offer?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Programs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Webinars</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recent Placements</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn dark_btn">Learner's login</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="banner_container">
+        <div class="container px-5 pb-5">
+          <div class="row">
+            <div class="col-sm-12 col-lg-7 text-white">
+              <h1 class="banner_title mt-5">
+                India’s Best Engineering Education Platform
+              </h1>
+              <p class="banner_description py-3">
+                Learn Core Engineering Skills and Progress your career
+              </p>
+              <button class="btn btn-default text-white">
+                Explore our programs
+              </button>
+            </div>
+          </div>
+          <div class="lead_form">
+            <form id="msform" class="msform">
+              <!-- fieldsets -->
+              <fieldset id="form_1" class="lead_form_capture active">
+                <h2 class="form-title">Book a Free Webinar</h2>
+                <div class="form_input_control">
+                  <input
+                    type="text"
+                    name="fullname"
+                    placeholder="Full Name"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="Email Address"
+                  class="form-control"
+                  required
+                />
+
+                <div class="d-flex">
+                  <select class="banner_countrycode" name="countrycode">
+                    <option value="INR">INR</option>
+                    <option value="USA">USA</option>
+                  </select>
+                  <input
+                    type="tel"
+                    id="phonenumber"
+                    placeholder="9090909090"
+                    class="phonenumberinput"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <button class="btn dark_btn full_button_otp" id="form_btn_1">
+                  Request OTP
+                </button>
+              </fieldset>
+              <fieldset id="form_2" class="lead_form_capture">
+                <h2 class="form-title">Book a Free Webinar</h2>
+                <input
+                  type="text"
+                  name="emailcaptured"
+                  placeholder="Email Address"
+                  class="form-control"
+                  required
+                />
+
+                <div class="d-flex">
+                  <select
+                    class="js-example-basic-single"
+                    name="countrycodecaptured"
+                  >
+                    <option value="INR">INR</option>
+                    <option value="USA">USA</option>
+                  </select>
+                  <input
+                    type="tel"
+                    id="phonenumber"
+                    placeholder="9090909090"
+                    class="phonenumberinput"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="otp-field mt-4" id="otp-field">
+                  <input type="number" />
+                  <input type="number" disabled />
+                  <input type="number" disabled />
+                  <input type="number" disabled />
+                  <input type="number" disabled />
+                  <input type="number" disabled />
+                </div>
+                <p class="resend text-muted mb-0">
+                  <a href="">Resent OTP to email & phone</a>
+                  <button class="btn dark_btn full_button_otp" id="form_btn_2">
+                    Submit OTP
+                  </button>
+                </p>
+              </fieldset>
+
+              <fieldset id="form_3" class="lead_form_capture">
+                <h2 class="form-title">Book a Free Webinar</h2>
+                <div class="mb-4">
+                  <p class="radio_btn_label">Choose current status</p>
+                  <div class="d-flex justify-content-between">
+                    <input
+                      type="radio"
+                      id="student"
+                      name="currentstatus"
+                      value=""
+                      checked
+                    />
+                    <label for="student">Student</label>
+                    <input
+                      type="radio"
+                      id="jobseeker"
+                      name="currentstatus"
+                      value=""
+                    />
+                    <label for="jobseeker">JoB Seeker</label>
+                    <input
+                      type="radio"
+                      id="syllabusing"
+                      name="currentstatus"
+                      value=""
+                    />
+                    <label for="syllabusing">syllabusing</label>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <p class="radio_btn_label">
+                    Interested in attending a live webinar?
+                  </p>
+                  <div class="d-flex justify-content-between Webinar_radio">
+                    <input
+                      type="radio"
+                      id="yes_need"
+                      name="Webinar"
+                      value="yes"
+                      checked
+                    />
+                    <label for="yes_need">Yes</label>
+
+                    <input
+                      type="radio"
+                      id="no_need"
+                      name="Webinar"
+                      value="no"
+                    />
+                    <label for="no_need">No</label>
+                  </div>
+                </div>
+                <div id="additional-info">
+                  <select class="js-example-basic-single" name="webinartiming">
+                    <option value="2023-09-24T21:30:00">
+                      September 24, 2023, 9:30 PM
+                    </option>
+                    <option value="2023-10-15T14:45:00">
+                      October 15, 2023, 2:45 PM
+                    </option>
+                    <option value="2023-11-05T10:00:00">
+                      November 5, 2023, 10:00 AM
+                    </option>
+                    <option value="2023-12-20T19:15:00">
+                      December 20, 2023, 7:15 PM
+                    </option>
+                    <option value="2024-01-08T08:30:00">
+                      January 8, 2024, 8:30 AM
+                    </option>
+                    <option value="2024-02-18T16:00:00">
+                      February 18, 2024, 4:00 PM
+                    </option>
+                    <option value="2024-03-10T11:45:00">
+                      March 10, 2024, 11:45 AM
+                    </option>
+                    <option value="2024-04-22T20:20:00">
+                      April 22, 2024, 8:20 PM
+                    </option>
+                    <option value="2024-05-14T15:55:00">
+                      May 14, 2024, 3:55 PM
+                    </option>
+                    <option value="2024-06-30T07:10:00">
+                      June 30, 2024, 7:10 AM
+                    </option>
+                  </select>
+                </div>
+                <button class="btn success_btn full_button_otp" id="form_btn_3">
+                  Book a class
+                  <i
+                    class="fa fa-long-arrow-right text-white"
+                    aria-hidden="true"
+                  ></i>
+                </button>
+              </fieldset>
+              <fieldset id="form_success" class="lead_form_capture">
+                <div class="webinar_success_msg">
+                  <img src="webinar.png" />
+                  <p class="webinar_title">Webinar is Scheduled</p>
+                  <p class="webinar_sub_title">
+                    Our team will get in touch with you in 24-48 hours & please
+                    check your inbox for webinar details
+                  </p>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="partner_container">
+        <div class="container p-5">
+          <div class="row">
+            <div
+              class="col-sm-12 col-lg-6 d-flex justify-content-between flex-wrap"
+            >
+              <div class="partner_card">
+                <p>Approved training partner</p>
+                <div class="partner_img_card">
+                  <img src="nsdc.png" />
+                </div>
+              </div>
+              <div class="partner_card">
+                <p>Program partner</p>
+                <div class="partner_img_card">
+                  <img src="cyient.png" />
+                </div>
+              </div>
+              <div class="partner_card">
+                <p>Software partner</p>
+                <div class="partner_img_card">
+                  <img src="ldra.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="enroll_container py-5 dark_blue_bg text-white"
+        id="enroll_container"
+      >
+        <div class="container p-5">
+          <h4 class="comp_title text-white">Why enroll for this program?</h4>
+          <div class="row pt-5 justify-content-between flex-wrap">
+            <div class="enroll_card">
+              <div class="enroll_img_card">
+                <img src="enroll_02.png" />
+              </div>
+              <p class="enroll_title">Live Interactive Classess</p>
+              <p class="enroll_description">
+                Learn from Experts on live classes and tutorials every week.
+                Masterclasses from Industry Veterans
+              </p>
+            </div>
+            <div class="enroll_card">
+              <div class="enroll_img_card">
+                <img src="enroll_01.png" />
+              </div>
+              <p class="enroll_title">Electric Vehicles are the future</p>
+              <p class="enroll_description">
+                Understand the scope of Electric Vehicles and deep dive into EV
+                technologies like Battery Design, Motor Control and simulate
+                with MATLAB
+              </p>
+            </div>
+            <div class="enroll_card">
+              <div class="enroll_img_card">
+                <img src="enroll_03.png" />
+              </div>
+              <p class="enroll_title">Career Opportunities</p>
+              <p class="enroll_description">
+                Get Skilled to ace Interviews provided by us or otherwise
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="company_slider" id="company_slider">
+        <div class="container p-5">
+          <h4 class="comp_sub_title">Our alumni syllabus at:</h4>
+          <div class="owl-carousel pt-5" id="company_logo">
+            <div class="item">
+              <img src="company_logo/logo1.png" />
+            </div>
+            <div class="item">
+              <img src="company_logo/logo2.png" />
+            </div>
+            <div class="item">
+              <img src="company_logo/logo3.png" />
+            </div>
+            <div class="item">
+              <img src="company_logo/logo4.png" />
+            </div>
+            <div class="item">
+              <img src="company_logo/logo5.png" />
+            </div>
+            <div class="item">
+              <img src="company_logo/logo6.png" />
+            </div>
+            <div class="item">
+              <img src="company_logo/logo7.png" />
+            </div>
+            <div class="item">
+              <img src="company_logo/logo8.png" />
+            </div>
+            <div class="item">
+              <img src="company_logo/logo9.png" />
+            </div>
+            <div class="item">
+              <img src="company_logo/logo10.png" />
+            </div>
+            <div class="item">
+              <img src="company_logo/logo11.png" />
+            </div>
+            <div class="item">
+              <img src="company_logo/logo12.png" />
+            </div>
+            <div class="item">
+              <img src="company_logo/logo13.png" />
+            </div>
+            <div class="item">
+              <img src="company_logo/logo14.png" />
+            </div>
+            <div class="item">
+              <img src="company_logo/logo15.png" />
+            </div>
+            <div class="item">
+              <img src="company_logo/logo16.png" />
+            </div>
+            <div class="item">
+              <img src="company_logo/logo17.png" />
+            </div>
+            <div class="item">
+              <img src="company_logo/logo18.png" />
+            </div>
+            <div class="item">
+              <img src="company_logo/logo19.png" />
+            </div>
+            <div class="item">
+              <img src="company_logo/logo20.png" />
+            </div>
+            <div class="item">
+              <img src="company_logo/logo21.png" />
+            </div>
+            <div class="item">
+              <img src="company_logo/logo22.png" />
+            </div>
+            <div class="item">
+              <img src="company_logo/logo23.png" />
+            </div>
+            <div class="item">
+              <img src="company_logo/logo24.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="recent_placement_container py-5"
+        id="recent_placement_container"
+      >
+        <div class="container p-5">
+          <h4 class="comp_title">Our recent placements</h4>
+          <div class="owl-carousel pb-5" id="recent_placement_content">
+            <div class="item">
+              <div class="placed_card">
+                <img src="recent_placement/thulasi.png" />
+                <p class="cand_name">Thulasi Karthikeyan</p>
+                <p class="cand_company">System Engineer, Bosch</p>
+                <p class="cand_date">Placed on July 2023</p>
+                <div class="d-flex align-items-center">
+                  <div>
+                    <p class="mb-0 ft-12 recent_place_text">before AEC</p>
+                    <div class="placed_company_card"><span>student</span></div>
+                  </div>
+                  <i
+                    class="fa fa-long-arrow-right arrow_design"
+                    aria-hidden="true"
+                  ></i>
+                  <div>
+                    <p class="mb-0 ft-12 recent_place_text">now Placed at</p>
+                    <div class="placed_company_card">
+                      <img src="company_logo/logo10.png" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="placed_card">
+                <img src="recent_placement/roshan.png" />
+                <p class="cand_name">Roshan Tirkey</p>
+                <p class="cand_company">Mechanical Engineer, Hero</p>
+                <p class="cand_date">Placed on August 2023</p>
+                <div class="d-flex align-items-center">
+                  <div>
+                    <p class="mb-0 ft-12 recent_place_text">before AEC</p>
+                    <div class="placed_company_card"><span>student</span></div>
+                  </div>
+                  <i
+                    class="fa fa-long-arrow-right arrow_design"
+                    aria-hidden="true"
+                  ></i>
+                  <div>
+                    <p class="mb-0 ft-12 recent_place_text">now Placed at</p>
+                    <div class="placed_company_card">
+                      <img src="company_logo/logo13.png" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="placed_card">
+                <img src="recent_placement/shumik.png" />
+                <p class="cand_name">Shaumik Dev</p>
+                <p class="cand_company">System Engineer, TCS</p>
+                <p class="cand_date">Placed on July 2023</p>
+                <div class="d-flex align-items-center">
+                  <div>
+                    <p class="mb-0 ft-12 recent_place_text">before AEC</p>
+                    <div class="placed_company_card">
+                      <img src="company_logo/logo5.png" />
+                    </div>
+                  </div>
+                  <i
+                    class="fa fa-long-arrow-right arrow_design"
+                    aria-hidden="true"
+                  ></i>
+                  <div>
+                    <p class="mb-0 ft-12 recent_place_text">now Placed at</p>
+                    <div class="placed_company_card">
+                      <img src="company_logo/logo15.png" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="placed_card">
+                <img src="recent_placement/thulasi.png" />
+                <p class="cand_name">Saravana Kumar</p>
+                <p class="cand_company">System Engineer, Bosch</p>
+                <p class="cand_date">Placed on July 2023</p>
+                <div class="d-flex align-items-center">
+                  <div>
+                    <p class="mb-0 ft-12 recent_place_text">before AEC</p>
+                    <div class="placed_company_card"><span>student</span></div>
+                  </div>
+                  <i
+                    class="fa fa-long-arrow-right arrow_design"
+                    aria-hidden="true"
+                  ></i>
+                  <div>
+                    <p class="mb-0 ft-12 recent_place_text">now Placed at</p>
+                    <div class="placed_company_card">
+                      <img src="company_logo/logo10.png" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mentor_container py-5 dark_blue_bg text-white"
+        id="mentor_container"
+      >
+        <div class="container p-5">
+          <h4 class="comp_title text-white">
+            Get mentored by leaders in the industry
+          </h4>
+          <p class="gray_light ft-14">
+            Our students get access to the insights from in-house mentors &
+            guest mentors
+          </p>
+          <div class="owl-carousel pt-5" id="mentor_content">
+            <div class="item">
+              <div class="mentor_card">
+                <div>
+                  <img src="mentor/ashish.png" class="mentor_pic" />
+                  <div class="d-flex justify-content-between my-3">
+                    <div>
+                      <p class="mentor_name">Ashish Verma</p>
+                      <p class="mentor_company">Ex VP, TCS</p>
+                    </div>
+                    <img
+                      src="company_logo/logo11.png"
+                      class="mentor_company_logo"
+                    />
+                  </div>
+                </div>
+                <p class="ft-12 mb-0 mentor_experience">
+                  15 years experience in Electric Vehicle
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="mentor_card">
+                <div>
+                  <img src="mentor/ashish.png" class="mentor_pic" />
+                  <div class="d-flex justify-content-between my-3">
+                    <div>
+                      <p class="mentor_name">Saravan kumar</p>
+                      <p class="mentor_company">Ex VP, TCS</p>
+                    </div>
+                    <img
+                      src="company_logo/logo15.png"
+                      class="mentor_company_logo"
+                    />
+                  </div>
+                </div>
+                <p class="ft-12 mb-0 mentor_experience">
+                  10 years experience in Electric Vehicle
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="mentor_card">
+                <div>
+                  <img src="mentor/shelly.png" class="mentor_pic" />
+                  <div class="d-flex justify-content-between my-3">
+                    <div>
+                      <p class="mentor_name">Shelly Mehta</p>
+                      <p class="mentor_company">VP, Valeo</p>
+                    </div>
+                    <img
+                      src="company_logo/logo16.png"
+                      class="mentor_company_logo"
+                    />
+                  </div>
+                </div>
+                <p class="ft-12 mb-0 mentor_experience">
+                  15 years experience in Electric Vehicle
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="mentor_card">
+                <div>
+                  <img src="mentor/jeremy.png" class="mentor_pic" />
+                  <div class="d-flex justify-content-between my-3">
+                    <div>
+                      <p class="mentor_name">Jeremy Scales</p>
+                      <p class="mentor_company">President, Daimler Group</p>
+                    </div>
+                    <img
+                      src="company_logo/logo10.png"
+                      class="mentor_company_logo"
+                    />
+                  </div>
+                </div>
+                <p class="ft-12 mb-0 mentor_experience">
+                  15 years experience in Electric Vehicle
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="mentor_card">
+                <div>
+                  <img src="mentor/ashishverma.png" class="mentor_pic" />
+                  <div class="d-flex justify-content-between my-3">
+                    <div>
+                      <p class="mentor_name">Ashish Verma</p>
+                      <p class="mentor_company">Mechanical Lead, Hero</p>
+                    </div>
+                    <img
+                      src="company_logo/logo15.png"
+                      class="mentor_company_logo"
+                    />
+                  </div>
+                </div>
+                <p class="ft-12 mb-0 mentor_experience">
+                  15 years experience in Electric Vehicle
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="leadCaptureFormModal"
+      aria-labelledby="leadCaptureFormModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="d-flex justify-content-end">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+
+            <form id="msform_modal" class="msform">
+              <!-- fieldsets -->
+              <fieldset id="form_1_modal" class="lead_form_capture active">
+                <h2 class="form-title">Dowload Full Syllabus</h2>
+                <input
+                  type="text"
+                  name="fullname"
+                  placeholder="Full Name"
+                  class="form-control"
+                  required
+                />
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="Email Address"
+                  class="form-control"
+                  required
+                />
+
+                <div class="d-flex">
+                  <select class="js-example-basic-single" name="countrycode">
+                    <option value="INR">INR</option>
+                    <option value="USA">USA</option>
+                  </select>
+                  <input
+                    type="tel"
+                    id="phonenumber_modal"
+                    placeholder="9090909090"
+                    class="phonenumberinput"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <button
+                  class="btn dark_btn full_button_otp"
+                  id="form_btn_1_modal"
+                >
+                  Request OTP
+                </button>
+              </fieldset>
+              <fieldset id="form_2_modal" class="lead_form_capture">
+                <h2 class="form-title">Dowload Full Syllabus</h2>
+                <input
+                  type="text"
+                  name="emailcaptured"
+                  placeholder="Email Address"
+                  class="form-control"
+                  required
+                />
+
+                <div class="d-flex">
+                  <select
+                    class="js-example-basic-single"
+                    name="countrycodecaptured"
+                  >
+                    <option value="INR">INR</option>
+                    <option value="USA">USA</option>
+                  </select>
+                  <input
+                    type="tel"
+                    id="phonenumberinput_modal"
+                    placeholder="9090909090"
+                    class="phonenumberinput"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="otp-field mt-4" id="otp-field_modal">
+                  <input type="number" />
+                  <input type="number" disabled />
+                  <input type="number" disabled />
+                  <input type="number" disabled />
+                  <input type="number" disabled />
+                  <input type="number" disabled />
+                </div>
+                <p class="resend text-muted mb-0">
+                  <a href="">Resent OTP to email & phone</a>
+                  <button
+                    class="btn dark_btn full_button_otp"
+                    id="form_btn_2_modal"
+                  >
+                    Submit OTP
+                  </button>
+                </p>
+              </fieldset>
+
+              <fieldset id="form_3_modal" class="lead_form_capture">
+                <h2 class="form-title">Dowload Full Syllabus</h2>
+                <div class="mb-4">
+                  <p class="radio_btn_label">Choose current status</p>
+                  <div class="d-flex justify-content-between">
+                    <input
+                      type="radio"
+                      id="student_modal"
+                      name="currentstatus_modal"
+                      value=""
+                      checked
+                    />
+                    <label for="student_modal">Student</label>
+                    <input
+                      type="radio"
+                      id="jobseeker_modal"
+                      name="currentstatus_modal"
+                      value=""
+                    />
+                    <label for="jobseeker_modal">JoB Seeker</label>
+                    <input
+                      type="radio"
+                      id="syllabusing_modal"
+                      name="currentstatus_modal"
+                      value=""
+                    />
+                    <label for="syllabusing_modal">syllabusing</label>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <p class="radio_btn_label">
+                    Interested in attending a live webinar?
+                  </p>
+                  <div class="d-flex justify-content-between Webinar_radio">
+                    <input
+                      type="radio"
+                      id="yes_need_modal"
+                      name="Webinar_modal"
+                      value="yes"
+                      checked
+                    />
+                    <label for="yes_need_modal">Yes</label>
+
+                    <input
+                      type="radio"
+                      id="no_need_modal"
+                      name="Webinar_modal"
+                      value="no"
+                    />
+                    <label for="no_need_modal">No</label>
+                  </div>
+                </div>
+                <div id="additional-info_modal">
+                  <select class="js-example-basic-single" name="webinartiming">
+                    <option value="2023-09-24T21:30:00">
+                      September 24, 2023, 9:30 PM
+                    </option>
+                    <option value="2023-10-15T14:45:00">
+                      October 15, 2023, 2:45 PM
+                    </option>
+                    <option value="2023-11-05T10:00:00">
+                      November 5, 2023, 10:00 AM
+                    </option>
+                    <option value="2023-12-20T19:15:00">
+                      December 20, 2023, 7:15 PM
+                    </option>
+                    <option value="2024-01-08T08:30:00">
+                      January 8, 2024, 8:30 AM
+                    </option>
+                    <option value="2024-02-18T16:00:00">
+                      February 18, 2024, 4:00 PM
+                    </option>
+                    <option value="2024-03-10T11:45:00">
+                      March 10, 2024, 11:45 AM
+                    </option>
+                    <option value="2024-04-22T20:20:00">
+                      April 22, 2024, 8:20 PM
+                    </option>
+                    <option value="2024-05-14T15:55:00">
+                      May 14, 2024, 3:55 PM
+                    </option>
+                    <option value="2024-06-30T07:10:00">
+                      June 30, 2024, 7:10 AM
+                    </option>
+                  </select>
+                </div>
+                <button
+                  class="btn success_btn full_button_otp"
+                  id="form_btn_3_modal"
+                >
+                  Download
+                  <i class="fa fa-arrow-down text-white" aria-hidden="true"></i>
+                </button>
+              </fieldset>
+              <fieldset id="form_success_modal" class="lead_form_capture">
+                <div class="webinar_success_msg">
+                  <img src="syllabus.png" />
+                  <p class="webinar_title">Syllabus Downloaded</p>
+                  <p class="webinar_sub_title">
+                    Please check your email inbox for the syllabus
+                  </p>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        $(".banner_countrycode").select2();
+        $(".js-example-basic-single").select2();
+
+        $("#form_btn_1").click(function () {
+          $("#form_1").removeClass("active");
+          $("#form_2").addClass("active");
+        });
+        $("#form_btn_2").click(function () {
+          $("#form_2").removeClass("active");
+          $("#form_3").addClass("active");
+        });
+        $("#form_btn_3").click(function () {
+          $("#form_3").removeClass("active");
+          $("#form_success").addClass("active");
+        });
+        $("#form_btn_1_modal").click(function () {
+          $("#form_1_modal").removeClass("active");
+          $("#form_2_modal").addClass("active");
+        });
+        $("#form_btn_2_modal").click(function () {
+          $("#form_2_modal").removeClass("active");
+          $("#form_3_modal").addClass("active");
+        });
+        $("#form_btn_3_modal").click(function () {
+          $("#form_3_modal").removeClass("active");
+          $("#form_success_modal").addClass("active");
+        });
+
+        $(
+          "#key_heighlights_btn, #enroll_container_btn, #recent_placement_container_btn , #mentor_container_btn, #syllabus_container_btn, #project_container_btn , #fees_container_btn , #faq_container_btn"
+        ).click(function () {
+          $(
+            "#key_heighlights_btn, #enroll_container_btn, #recent_placement_container_btn , #mentor_container_btn, #syllabus_container_btn, #project_container_btn , #fees_container_btn , #faq_container_btn"
+          ).removeClass("clicked");
+
+          $(this).addClass("clicked");
+        });
+      });
+      $(document).ready(function () {
+        $(".js-example-basic-single").select2({
+          dropdownParent: $("#leadCaptureFormModal"),
+        });
+      });
+      $(function () {
+        // Smooth Scroll
+        $(".navbar a[href*=#]").bind("click", function (e) {
+          var anchor = $(this);
+          $("html, body")
+            .stop()
+            .animate(
+              {
+                scrollTop: $(anchor.attr("href")).offset().top,
+              },
+              1000
+            );
+          e.preventDefault();
+        });
+      });
+
+      jQuery(document).ready(function () {
+        jQuery(".panel-heading").click(function () {
+          jQuery("#accordion .panel-heading").not(this).removeClass("isOpen");
+          jQuery(this).toggleClass("isOpen");
+          jQuery(this).next(".panel-collapse").addClass("thePanel");
+          jQuery("#accordion .panel-collapse").not(".thePanel").slideUp(300);
+          jQuery(".thePanel").slideToggle(800).removeClass("thePanel");
+        });
+      });
+      $("#form_3 .Webinar_radio input[type='radio']").on("change", function () {
+        var selectedValue = $(
+          "#form_3 .Webinar_radio input[type='radio']:checked"
+        ).val();
+
+        if (selectedValue == "yes") {
+          $("#additional-info").show();
+        } else {
+          $("#additional-info").hide();
+        }
+      });
+
+      $("#form_3_modal .Webinar_radio input[type='radio']").on(
+        "change",
+        function () {
+          var selectedValue = $(
+            "#form_3_modal .Webinar_radio input[type='radio']:checked"
+          ).val();
+          if (selectedValue == "yes") {
+            $("#additional-info_modal").show();
+          } else {
+            $("#additional-info_modal").hide();
+          }
+        }
+      );
+      const inputs = document.querySelectorAll("#otp-field > input");
+      const button = document.querySelector("#form_btn_2");
+
+      window.addEventListener("load", () => inputs[0].focus());
+      button.setAttribute("disabled", "disabled");
+
+      inputs[0].addEventListener("paste", function (event) {
+        event.preventDefault();
+
+        const pastedValue = (
+          event.clipboardData || window.clipboardData
+        ).getData("text");
+        const otpLength = inputs.length;
+
+        for (let i = 0; i < otpLength; i++) {
+          if (i < pastedValue.length) {
+            inputs[i].value = pastedValue[i];
+            inputs[i].removeAttribute("disabled");
+            inputs[i].focus;
+          } else {
+            inputs[i].value = "";
+            inputs[i].focus;
+          }
+        }
+      });
+
+      inputs.forEach((input, index1) => {
+        input.addEventListener("keyup", (e) => {
+          const currentInput = input;
+          const nextInput = input.nextElementSibling;
+          const prevInput = input.previousElementSibling;
+
+          if (currentInput.value.length > 1) {
+            currentInput.value = "";
+            return;
+          }
+
+          if (
+            nextInput &&
+            nextInput.hasAttribute("disabled") &&
+            currentInput.value !== ""
+          ) {
+            nextInput.removeAttribute("disabled");
+            nextInput.focus();
+          }
+
+          if (e.key === "Backspace") {
+            inputs.forEach((input, index2) => {
+              if (index1 <= index2 && prevInput) {
+                input.setAttribute("disabled", true);
+                input.value = "";
+                prevInput.focus();
+              }
+            });
+          }
+
+          button.classList.remove("active");
+          button.setAttribute("disabled", "disabled");
+
+          const inputsNo = inputs.length;
+          if (
+            !inputs[inputsNo - 1].disabled &&
+            inputs[inputsNo - 1].value !== ""
+          ) {
+            button.classList.add("active");
+            button.removeAttribute("disabled");
+
+            return;
+          }
+        });
+      });
+
+      $("#company_logo").owlCarousel({
+        autoplay: true,
+        autoplayTimeout: 1000,
+        autoplayHoverPause: true,
+        loop: true,
+        margin: 50,
+        responsiveClass: true,
+        nav: true,
+        loop: true,
+        //stagePadding: 100,
+        responsive: {
+          0: {
+            items: 2,
+          },
+          568: {
+            items: 3,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 6,
+          },
+        },
+      });
+
+      $("#recent_placement_content").owlCarousel({
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        loop: true,
+        margin: 50,
+        responsiveClass: true,
+        nav: true,
+        loop: true,
+        //stagePadding: 100,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          568: {
+            items: 2,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+
+      $("#mentor_content").owlCarousel({
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        loop: true,
+        margin: 25,
+        responsiveClass: true,
+        nav: true,
+        loop: true,
+        //stagePadding: 100,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          568: {
+            items: 2,
+          },
+          600: {
+            items: 2,
+          },
+          900: {
+            items: 3,
+          },
+          1025: {
+            items: 4,
+          },
+        },
+      });
+
+      $("#project_content").owlCarousel({
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        loop: true,
+        margin: 50,
+        responsiveClass: true,
+        nav: true,
+        loop: true,
+        //stagePadding: 100,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          568: {
+            items: 2,
+          },
+          600: {
+            items: 2,
+          },
+          900: {
+            items: 3,
+          },
+          1025: {
+            items: 4,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
