@@ -15,7 +15,7 @@
       rel="stylesheet"
     />
 
-    <link href="main.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
     <link
       href="css/owl.css"
       rel="stylesheet"
@@ -72,6 +72,45 @@
   </head>
   <body>  
     <div>
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid px-5">
+          <a class="navbar-brand" href="#" aria-current="page"> <img src="company_logo/AEC_logo.png"/></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Courses
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="#">What do we offer?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Programs</a>
+              </li>
+             <li class="nav-item">
+                <a class="nav-link" href="#">Webinars</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="#">Recent Placements</a>
+              </li> 
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
       <div class="banner_container">
         <div class="container">
           <nav aria-label="breadcrumb" class="py-5 ft-14">
@@ -294,14 +333,9 @@
             <a href="#fees_container ">Fees </a>
             <a href="#faq_container ">FAQ & Eligibility </a>
           </div>
-          <button
-              type="button"
-              class="btn dark_btn text-nowrap"
-              data-bs-toggle="modal"
-              data-bs-target="#leadCaptureFormModal"
-            >Book Free Class</button>
-      </div>
-    </header>
+          <button  type="button" class="btn dark_btn text-nowrap" data-bs-toggle="modal" data-bs-target="#leadCaptureFormModal">Book Free Class</button>
+        </div>
+      </header>
       <div class="partner_container">
         <div class="container py-5">
           <div class="row">
@@ -423,7 +457,7 @@
       <div class="company_slider" id="company_slider">
         <div class="container py-5">
           <h4 class="comp_sub_title">Our alumni works at:</h4>
-          <div class="owl-carousel py-5" id="company_logo">
+          <div class="owl-carousel pt-5" id="company_logo">
             <div class="item">
               <img src="company_logo/logo1.png" />
             </div>
@@ -500,7 +534,7 @@
         </div>
       </div>
       <div class="recent_placement_container" id="recent_placement_container">
-        <div class="container py-5">
+        <div class="container pb-5">
           <h4 class="comp_title">Our recent placements</h4>
           <div class="owl-carousel py-5" id="recent_placement_content">
             <div class="item">
