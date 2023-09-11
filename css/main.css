@@ -209,31 +209,55 @@ body {
   margin-top: -27px;
   display: none;
 }
-.recent_placement_container .owl-prev,
-.project_container .owl-prev,
-.mentor_container .owl-prev {
+.recent_placement_container .owl-prev {
   background: url("../svg/car_arrow_left.svg") left center no-repeat !important;
   height: 70px;
   position: absolute;
   top: 50%;
   width: 70px;
   z-index: 1000;
-  left: 2%;
+  left: -7%;
   cursor: pointer;
   color: transparent !important;
   margin-top: -27px;
 }
 
-.recent_placement_container .owl-next,
-.project_container .owl-next,
-.mentor_container .owl-next {
+.project_container .owl-prev,
+.mentor_container .owl-prev {
+  background: url("../svg/car_arrow_left_dark.svg") left center no-repeat !important;
+  height: 70px;
+  position: absolute;
+  top: 50%;
+  width: 70px;
+  z-index: 1000;
+  left: -7%;
+  cursor: pointer;
+  color: transparent !important;
+  margin-top: -27px;
+}
+
+.recent_placement_container .owl-next {
   background: url("../svg/car_arrow_right.svg") right center no-repeat !important;
   height: 70px;
   position: absolute;
   top: 50%;
   width: 70px;
   z-index: 1000;
-  right: 2%;
+  right: -7%;
+  cursor: pointer;
+  color: transparent !important;
+  margin-top: -27px;
+}
+
+.project_container .owl-next,
+.mentor_container .owl-next {
+  background: url("../svg/car_arrow_right_dark.svg") right center no-repeat !important;
+  height: 70px;
+  position: absolute;
+  top: 50%;
+  width: 70px;
+  z-index: 1000;
+  right: -7%;
   cursor: pointer;
   color: transparent !important;
   margin-top: -27px;
@@ -549,6 +573,7 @@ body {
   font-size: 16px;
   font-weight: 300;
   line-height: 20px;
+  margin-bottom: 4px;
 }
 .fess_emi_amt {
   font-family: Inter;
