@@ -212,36 +212,35 @@ body {
 .recent_placement_container .owl-prev,
 .project_container .owl-prev,
 .mentor_container .owl-prev {
-  background: url("https://res.cloudinary.com/milairagny/image/upload/v1487938188/left-arrow_rlxamy.png")
-    left center no-repeat;
-  height: 54px;
+  background: url("../svg/car_arrow_left.svg") left center no-repeat !important;
+  height: 70px;
   position: absolute;
   top: 50%;
-  width: 27px;
+  width: 70px;
   z-index: 1000;
   left: 2%;
   cursor: pointer;
-  color: transparent;
+  color: transparent !important;
   margin-top: -27px;
 }
+
 .recent_placement_container .owl-next,
 .project_container .owl-next,
 .mentor_container .owl-next {
-  background: url("https://res.cloudinary.com/milairagny/image/upload/v1487938220/right-arrow_zwe9sf.png")
-    right center no-repeat;
-  height: 54px;
+  background: url("../svg/car_arrow_right.svg") right center no-repeat !important;
+  height: 70px;
   position: absolute;
   top: 50%;
-  width: 27px;
+  width: 70px;
   z-index: 1000;
   right: 2%;
   cursor: pointer;
-  color: transparent;
+  color: transparent !important;
   margin-top: -27px;
 }
 .owl-prev:hover,
 .owl-next:hover {
-  opacity: 0.5;
+  opacity: 0.75;
 }
 
 /* Owl Carousel */
@@ -390,7 +389,7 @@ body {
   color: #d2d6db;
 }
 .project_card {
-  min-height: 325px;
+  min-height: 305px;
 }
 .mentor_card .mentor_pic,
 .project_card img {
@@ -413,6 +412,11 @@ body {
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-height: 3.2rem;
 }
 .mentor_company {
   color: #4d525b;
@@ -430,6 +434,12 @@ body {
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  max-height: 3.2rem;
+  margin-bottom: 0;
 }
 
 .mentor_exp {
