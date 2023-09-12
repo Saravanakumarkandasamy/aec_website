@@ -90,6 +90,16 @@ body {
   font-size: 14px !important;
   padding: 5px 10px !important;
 }
+.line {
+  background-color: #d2d6db;
+  width: 28px;
+  height: 4px;
+  border-radius: 5px;
+  margin: 0;
+}
+.active_line {
+  background: #1849a9;
+}
 .success_btn {
   color: #fff;
   font-size: 14px;
