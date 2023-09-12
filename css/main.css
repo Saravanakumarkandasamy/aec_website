@@ -86,6 +86,10 @@ body {
   font-weight: 600;
   line-height: 28px;
 }
+.btn-small {
+  font-size: 14px !important;
+  padding: 5px 10px !important;
+}
 .success_btn {
   color: #fff;
   font-size: 14px;
@@ -213,7 +217,7 @@ body {
   background: url("../svg/car_arrow_left.svg") left center no-repeat !important;
   height: 70px;
   position: absolute;
-  top: 50%;
+  top: 40%;
   width: 70px;
   z-index: 1000;
   left: -7%;
@@ -240,7 +244,7 @@ body {
   background: url("../svg/car_arrow_right.svg") right center no-repeat !important;
   height: 70px;
   position: absolute;
-  top: 50%;
+  top: 40%;
   width: 70px;
   z-index: 1000;
   right: -7%;
@@ -519,6 +523,9 @@ body {
   background-color: #fff !important;
   box-shadow: none !important;
   color: #061733;
+}
+.fees_container_width {
+  width: 49%;
 }
 .fees_sub_title {
   font-family: Poppins;
@@ -1058,7 +1065,7 @@ input[type="radio"]:checked + label {
   text-align: center;
   transition: transform 0.3s ease-in-out;
   z-index: 1025;
-  /* display: none; */
+  display: none;
 }
 .sticky-header a {
   color: #111927;
@@ -1082,7 +1089,86 @@ input[type="radio"]:checked + label {
   box-shadow: 2px 2px 5px 0 #ccc;
 }
 
+.home_partner_logo {
+}
+
+.home_partner_logo img {
+  width: 125px;
+  height: 60px;
+  object-fit: contain;
+}
+.offer_card {
+  width: 35%;
+  background: #061733;
+  color: #fff;
+  border-radius: 20px;
+  padding: 24px;
+}
+.offer_card .img_bg {
+  background: #102a56;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 18px;
+}
+.offer_card .offer_pr_title {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f5faff;
+  margin: 15px 0 5px 0;
+}
+.offer_card .offer_for_whom {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #dbf301;
+  margin: 0;
+}
+.offer_title {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #102a56;
+}
+
+.offer_card .main_img {
+}
+.offer_card hr {
+  background: linear-gradient(45deg, white, transparent);
+  margin: 35px 0;
+}
+.offer_features {
+  gap: 8px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f5faff;
+}
+.offer_features p {
+  margin: 0;
+}
+.offer_features img {
+  margin-right: 5px;
+}
+
 @media screen and (max-width: 767px) {
+  .fees_container_width {
+    width: 48%;
+  }
   #timeline {
     margin-left: 0;
     padding-left: 0;
@@ -1151,6 +1237,9 @@ input[type="radio"]:checked + label {
 }
 
 @media only screen and (max-width: 600px) {
+  .fees_container_width {
+    width: 100%;
+  }
   .partner_card {
     text-align: center;
     width: 100%;
