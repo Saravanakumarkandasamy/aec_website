@@ -23,6 +23,27 @@ body {
   font-weight: 700;
   line-height: 50px;
 }
+.banner_title.home_title {
+  margin-top: 108px;
+}
+.btn-default-white {
+  border: 1px solid #d2d6db;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 8px 24px;
+  margin-bottom: 4rem;
+}
+.btn-default-white:hover {
+  background: #fff;
+  color: #061733 !important;
+}
+.btn-default-white:hover img {
+  filter: grayscale(1) invert(1);
+}
 .banner_description {
   font-family: Poppins;
   font-size: 16px;
@@ -117,6 +138,12 @@ body {
 .success_btn:hover {
   color: #fff;
   background: #149c5d;
+}
+.partner_home_title {
+  color: #4d525b;
+}
+.gap-partner {
+  gap: 13%;
 }
 .partner_card {
   text-align: center;
@@ -1112,7 +1139,7 @@ input[type="radio"]:checked + label {
   padding-bottom: 42px;
 }
 .offer_card {
-  width: 35%;
+  width: 34%;
   background: #061733;
   color: #fff;
   border-radius: 20px;
@@ -1124,7 +1151,7 @@ input[type="radio"]:checked + label {
   display: flex;
   justify-content: center;
   border-radius: 20px;
-  padding: 18px;
+  padding: 20px;
 }
 .offer_card .offer_pr_title {
   font-family: Poppins;
@@ -1134,7 +1161,7 @@ input[type="radio"]:checked + label {
   letter-spacing: 0em;
   text-align: left;
   color: #f5faff;
-  margin: 15px 0 5px 0;
+  margin: 25px 0 8px 0;
 }
 .offer_card .offer_for_whom {
   font-family: Poppins;
@@ -1159,11 +1186,12 @@ input[type="radio"]:checked + label {
 .offer_card .main_img {
 }
 .offer_card hr {
-  background: linear-gradient(45deg, white, transparent);
+  background: linear-gradient(45deg, white, #000000);
   margin: 35px 0;
+  height: 2px;
 }
 .offer_features {
-  gap: 8px;
+  gap: 10px;
   font-family: Poppins;
   font-size: 15px;
   font-weight: 400;
@@ -1310,6 +1338,10 @@ input[type="radio"]:checked + label {
 }
 .navbar-expand-lg .navbar-nav-scroll {
   gap: 20px;
+  align-items: center;
+}
+.navbar-light {
+  box-shadow: 0px 12px 16px -4px #1849a914;
 }
 #navbarScroll {
   border-left: 1px solid #b7b7b7;
